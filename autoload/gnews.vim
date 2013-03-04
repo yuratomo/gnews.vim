@@ -68,7 +68,7 @@ function! s:open_win(split)
     endif
     silent edit gnews
     setl bt=nofile noswf wrap hidden nolist nomodifiable ft=gnews fdm=indent ts=1 sw=1 et fdl=0 fdt=getline(v:foldstart)
-    let b:weather_win = 0
+    let b:gnews_win = 0
   endif
 endfunction
 
